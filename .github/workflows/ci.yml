@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: node ${{ matrix.node }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node: ['20', '22']
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+
+      # The only dependency is the official market-index validator DSH itself uses.
+      - name: Install validator
+        run: npm install --no-audit --no-fund
+
+      # Fails when site/index.json is stale relative to plugins.json, and runs
+      # every entry through the official parser.
+      - name: Index is built and valid
+        run: npm run check
+
+      - name: Rebuild leaves the tree untouched
+        run: |
+          npm run build
+          git diff --exit-code -- docs/index.json

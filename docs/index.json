@@ -1,0 +1,777 @@
+{
+  "format": 1,
+  "title": {
+    "zh": "DSH 插件精选",
+    "en": "DSH Plugin Picks"
+  },
+  "description": {
+    "zh": "人工筛选并逐条校验的 DeepSeek Harness 插件索引：每个条目都确认过 npm 上存在、声明了 dsh.bundle、并给出可安装的精确版本。",
+    "en": "A hand-picked, individually verified index of DeepSeek Harness plugins: every entry is confirmed to exist on npm, declare a dsh.bundle, and list exact installable versions."
+  },
+  "metadata": {
+    "categories": {
+      "diagnostics": {
+        "title": {
+          "zh": "诊断排障",
+          "en": "Diagnostics"
+        }
+      },
+      "tooling": {
+        "title": {
+          "zh": "工具增强",
+          "en": "Tooling"
+        }
+      },
+      "experience": {
+        "title": {
+          "zh": "界面体验",
+          "en": "Experience"
+        }
+      },
+      "models": {
+        "title": {
+          "zh": "模型接入",
+          "en": "Models"
+        }
+      },
+      "market": {
+        "title": {
+          "zh": "市场目录",
+          "en": "Marketplaces"
+        }
+      }
+    },
+    "labels": {
+      "community": {
+        "title": {
+          "zh": "社区维护",
+          "en": "Community"
+        }
+      }
+    },
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "dsh-plugin-health",
+      "title": {
+        "zh": "插件体检",
+        "en": "Plugin Health"
+      },
+      "description": {
+        "zh": "诊断插件安装、兼容性与实际加载问题，给出可预览的修复方案与可回滚的启动试验。",
+        "en": "Diagnoses plugin installation, compatibility and loading problems, with repair previews and reversible startup trials."
+      },
+      "author": "EasonMWS",
+      "homepage": "https://easonmws.github.io/dsh-plugin-health/",
+      "repository": {
+        "url": "https://github.com/EasonMWS/dsh-plugin-health"
+      },
+      "metadata": {
+        "category": "diagnostics",
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek",
+          "deepseek-harness",
+          "plugin-manager",
+          "plugin-management",
+          "plugin-doctor",
+          "plugin-health"
+        ],
+        "labels": [
+          "community"
+        ],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "4.0.0-beta.2",
+          "publishTimestamp": 1794129233,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "4.0.0-beta.1",
+          "publishTimestamp": 1794124294,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "3.0.7",
+          "publishTimestamp": 1794111322,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "3.0.6",
+          "publishTimestamp": 1794024796,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "3.0.5",
+          "publishTimestamp": 1793960172,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "3.0.4",
+          "publishTimestamp": 1793956082,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "3.0.3",
+          "publishTimestamp": 1793941279,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "3.0.2",
+          "publishTimestamp": 1793939752,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-plugin-debugging",
+      "title": {
+        "zh": "插件运行诊断",
+        "en": "Plugin Debugging"
+      },
+      "description": {
+        "zh": "面向插件开发的运行时诊断与就地修复：让 agent 自己跑一遍就能定位问题。",
+        "en": "Runtime diagnostics and in-place fixes for plugin development that the agent can run itself."
+      },
+      "author": "zlZayn",
+      "homepage": "https://github.com/dsh-plugin-lab/dsh-plugin-debugging#readme",
+      "repository": {
+        "url": "https://github.com/dsh-plugin-lab/dsh-plugin-debugging"
+      },
+      "metadata": {
+        "category": "diagnostics",
+        "keywords": [
+          "dsh",
+          "deepseek-harness",
+          "dsh-plugin"
+        ],
+        "labels": [
+          "community"
+        ],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.7.3",
+          "publishTimestamp": 1794140216,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.7.2",
+          "publishTimestamp": 1793987148,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.7.1",
+          "publishTimestamp": 1792431105,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.7.0",
+          "publishTimestamp": 1792407367,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.6.0",
+          "publishTimestamp": 1792308162,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.5.2",
+          "publishTimestamp": 1792224549,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.5.1",
+          "publishTimestamp": 1792219169,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.5.0",
+          "publishTimestamp": 1792218065,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-plugin-ops-bundle",
+      "title": {
+        "zh": "运维面板",
+        "en": "Ops Panel"
+      },
+      "description": {
+        "zh": "设置页里的健康面板：扫描插件、逐行展示状态，并附带一个诊断对话入口。",
+        "en": "A settings-page health panel that scans plugins, lists each row's state and adds a diagnosis chat."
+      },
+      "homepage": "https://github.com/f-infinite-z/dsh-plugin-ops#readme",
+      "repository": {
+        "url": "https://github.com/f-infinite-z/dsh-plugin-ops"
+      },
+      "metadata": {
+        "category": "diagnostics",
+        "keywords": [
+          "deepseek",
+          "harness",
+          "dsh",
+          "dsh-plugin",
+          "cordis",
+          "plugin",
+          "health-check",
+          "diagnostics"
+        ],
+        "labels": [
+          "community"
+        ],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.20.9",
+          "publishTimestamp": 1794133923,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.20.8",
+          "publishTimestamp": 1793542704,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.20.7",
+          "publishTimestamp": 1793538413,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.20.6",
+          "publishTimestamp": 1793101665,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.20.5",
+          "publishTimestamp": 1792763146,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.20.4",
+          "publishTimestamp": 1792504086,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.20.3",
+          "publishTimestamp": 1792226284,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.20.2",
+          "publishTimestamp": 1792069032,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-plugin-upgrader",
+      "title": {
+        "zh": "插件升级器",
+        "en": "Plugin Upgrader"
+      },
+      "description": {
+        "zh": "在插件页直接升级插件，支持版本历史、回滚与实时 pnpm 进度。",
+        "en": "Upgrade plugins from the Plugins page, with version history, rollback and live pnpm progress."
+      },
+      "author": "zuwenyin",
+      "homepage": "https://github.com/zuwenyin/dsh-plugin-upgrader#readme",
+      "repository": {
+        "url": "https://github.com/zuwenyin/dsh-plugin-upgrader"
+      },
+      "metadata": {
+        "category": "tooling",
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek",
+          "deepseek-harness",
+          "harness",
+          "cordis",
+          "plugin-manager",
+          "version-manager"
+        ],
+        "labels": [
+          "community"
+        ],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "1.8.0",
+          "publishTimestamp": 1793861060,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "1.7.5",
+          "publishTimestamp": 1793768008,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "1.7.4",
+          "publishTimestamp": 1793761490,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "1.7.3",
+          "publishTimestamp": 1793757411,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "1.7.2",
+          "publishTimestamp": 1793697948,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "1.7.1",
+          "publishTimestamp": 1793693020,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "1.7.0",
+          "publishTimestamp": 1793677704,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "1.6.3",
+          "publishTimestamp": 1793607534,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-plugin-share",
+      "title": {
+        "zh": "插件集分享",
+        "en": "Plugin Set Share"
+      },
+      "description": {
+        "zh": "把一组插件打包成短码离线分享，对方粘贴即可复刻同一套插件。",
+        "en": "Share a plugin set offline as a compact code that reproduces the same set on another machine."
+      },
+      "homepage": "https://github.com/HGT158/dsh-plugin-share#readme",
+      "repository": {
+        "url": "https://github.com/HGT158/dsh-plugin-share"
+      },
+      "metadata": {
+        "category": "tooling",
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek-harness",
+          "plugin-share"
+        ],
+        "labels": [
+          "community"
+        ],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.2.5",
+          "publishTimestamp": 1792682270,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.4",
+          "publishTimestamp": 1792258684,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.2",
+          "publishTimestamp": 1792252466,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1",
+          "publishTimestamp": 1791183289,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-plugin-appshot",
+      "title": {
+        "zh": "上下文截图",
+        "en": "Context Screenshot"
+      },
+      "description": {
+        "zh": "在 macOS 与 Windows 上截取当前窗口上下文，直接交给 agent 看。",
+        "en": "Capture the current window as context for the agent on macOS and Windows."
+      },
+      "author": "TaurusWood",
+      "homepage": "https://github.com/TaurusWood/dsh-plugin-appshot#readme",
+      "repository": {
+        "url": "https://github.com/TaurusWood/dsh-plugin-appshot"
+      },
+      "metadata": {
+        "category": "experience",
+        "keywords": [
+          "deepseek",
+          "deepseek-harness",
+          "dsh",
+          "dsh-plugin",
+          "appshot",
+          "screenshot",
+          "screencapturekit",
+          "macos"
+        ],
+        "labels": [
+          "community"
+        ],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.4.2",
+          "publishTimestamp": 1790577038,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.4.1",
+          "publishTimestamp": 1787881348,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.4.0",
+          "publishTimestamp": 1787643359,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.3.3",
+          "publishTimestamp": 1787578881,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.3.2",
+          "publishTimestamp": 1787411241,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.3.0",
+          "publishTimestamp": 1787408223,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1786979461,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.2",
+          "publishTimestamp": 1786931373,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-plugin-guide",
+      "title": {
+        "zh": "插件质量指南",
+        "en": "Plugin Quality Guide"
+      },
+      "description": {
+        "zh": "社区写的插件质量指南：ENTRY、FLOW 检查与改进建议。非官方、非认证。",
+        "en": "A community guide to plugin quality: ENTRY checks, FLOW checks and improvement hints. Not official, not a certification."
+      },
+      "homepage": "https://github.com/PerryLink/dsh-plugin-guide#readme",
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-plugin-guide"
+      },
+      "metadata": {
+        "category": "experience",
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek-harness",
+          "cordis",
+          "plugin-development",
+          "standards",
+          "checklist",
+          "guide"
+        ],
+        "labels": [
+          "community"
+        ],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.5.5",
+          "publishTimestamp": 1794120269,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.5.4",
+          "publishTimestamp": 1794026195,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.5.3",
+          "publishTimestamp": 1793993759,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.5.2",
+          "publishTimestamp": 1793993022,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.5.1",
+          "publishTimestamp": 1793990695,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.5.0",
+          "publishTimestamp": 1793986811,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.4.6",
+          "publishTimestamp": 1793979276,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.4.5",
+          "publishTimestamp": 1793948135,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-plugin",
+      "title": {
+        "zh": "插件市场 Hub",
+        "en": "Plugin Hub"
+      },
+      "description": {
+        "zh": "社区插件市场客户端，按官方插件规范浏览、搜索并安装社区插件。",
+        "en": "A community marketplace client that browses, searches and installs community plugins to the official spec."
+      },
+      "author": "DSH Plugin Hub contributors",
+      "homepage": "https://dsh-plugin.org",
+      "repository": {
+        "url": "https://github.com/dshplugin/dsh-plugin-hub"
+      },
+      "metadata": {
+        "category": "market",
+        "keywords": [
+          "deepseek",
+          "deepseek-harness",
+          "harness",
+          "dsh",
+          "dsh-plugin",
+          "plugin-marketplace",
+          "plugin-hub",
+          "community-plugins"
+        ],
+        "labels": [
+          "community"
+        ],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "2.3.5",
+          "publishTimestamp": 1794057473,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "2.3.4",
+          "publishTimestamp": 1793853231,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "2.3.3",
+          "publishTimestamp": 1793709767,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "2.3.2",
+          "publishTimestamp": 1793674806,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "2.3.1",
+          "publishTimestamp": 1793651808,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "2.3.0",
+          "publishTimestamp": 1793649980,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-our-free-model",
+      "title": {
+        "zh": "免费模型接入",
+        "en": "Our Free Model"
+      },
+      "description": {
+        "zh": "免登录、免 Key 即可使用多种前沿模型的模型侧插件（上游行为由维护者决定，请自行评估）。",
+        "en": "A model-side plugin that adds frontier models without sign-in or API keys (upstream behaviour is the maintainer's call — judge for yourself)."
+      },
+      "metadata": {
+        "category": "models",
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "free-model",
+          "llm-provider"
+        ],
+        "labels": [
+          "community"
+        ],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "2.1.0",
+          "publishTimestamp": 1791738621,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "2.0.0",
+          "publishTimestamp": 1791632714,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.0.0-stage",
+          "publishTimestamp": 1791632616,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    }
+  ]
+}

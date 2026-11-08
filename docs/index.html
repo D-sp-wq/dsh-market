@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DSH 插件精选</title>
+<meta name="description" content="人工筛选并逐条校验的 DeepSeek Harness 插件索引">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <div class="hero-top">
+      <h1 id="market-title">DSH 插件精选</h1>
+      <div class="hero-actions">
+        <button id="lang-toggle" class="ghost" type="button" title="切换语言 / Switch language">EN</button>
+        <a class="ghost" href="https://github.com/D-sp-wq/dsh-market" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </div>
+    <p id="market-description" class="lede"></p>
+    <div class="stats" id="stats"></div>
+
+    <div class="add-index">
+      <div class="add-index-text">
+        <strong id="how-title">在 DSH 里添加这个索引</strong>
+        <ol id="how-steps">
+          <li>设置 → 插件，启用「插件市场 / Discover」实验性组合包</li>
+          <li>在发现页添加索引地址</li>
+          <li>浏览并一键安装</li>
+        </ol>
+      </div>
+      <div class="add-index-code">
+        <code id="index-url"></code>
+        <button class="primary" id="copy-index" type="button">复制索引地址</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="controls">
+    <input id="search" type="search" placeholder="搜索插件名、作者、关键词…" autocomplete="off">
+    <div class="pills" id="categories"></div>
+    <select id="sort">
+      <option value="index">索引顺序</option>
+      <option value="recent">最近发布</option>
+      <option value="name">名称</option>
+    </select>
+  </div>
+  <p class="result-line" id="result-line"></p>
+  <div class="grid" id="grid"></div>
+  <p class="empty" id="empty" hidden>没有匹配的插件。</p>
+</main>
+
+<footer class="wrap foot">
+  <span id="foot-note">索引格式 1 · 每次构建都由官方解析器 <code>@deepseek-ai/dsh-plugin-market-index</code> 校验</span>
+</footer>
+
+<script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+{
+  "$comment": "Curated source list. scripts/build.mjs turns this into site/index.json (official market index format 1) and validates it with @deepseek-ai/dsh-plugin-market-index. Only packages that declare a dsh.bundle are installable entries; anything else belongs in a feed, not here.",
+  "title": {
+    "zh": "DSH 插件精选",
+    "en": "DSH Plugin Picks"
+  },
+  "description": {
+    "zh": "人工筛选并逐条校验的 DeepSeek Harness 插件索引：每个条目都确认过 npm 上存在、声明了 dsh.bundle、并给出可安装的精确版本。",
+    "en": "A hand-picked, individually verified index of DeepSeek Harness plugins: every entry is confirmed to exist on npm, declare a dsh.bundle, and list exact installable versions."
+  },
+  "categories": {
+    "diagnostics": { "zh": "诊断排障", "en": "Diagnostics" },
+    "tooling": { "zh": "工具增强", "en": "Tooling" },
+    "experience": { "zh": "界面体验", "en": "Experience" },
+    "models": { "zh": "模型接入", "en": "Models" },
+    "market": { "zh": "市场目录", "en": "Marketplaces" }
+  },
+  "labels": {
+    "community": { "zh": "社区维护", "en": "Community" }
+  },
+  "plugins": [
+    {
+      "name": "dsh-plugin-health",
+      "category": "diagnostics",
+      "labels": ["community"],
+      "title": { "zh": "插件体检", "en": "Plugin Health" },
+      "description": {
+        "zh": "诊断插件安装、兼容性与实际加载问题，给出可预览的修复方案与可回滚的启动试验。",
+        "en": "Diagnoses plugin installation, compatibility and loading problems, with repair previews and reversible startup trials."
+      },
+      "versions": 8
+    },
+    {
+      "name": "dsh-plugin-debugging",
+      "category": "diagnostics",
+      "labels": ["community"],
+      "title": { "zh": "插件运行诊断", "en": "Plugin Debugging" },
+      "description": {
+        "zh": "面向插件开发的运行时诊断与就地修复：让 agent 自己跑一遍就能定位问题。",
+        "en": "Runtime diagnostics and in-place fixes for plugin development that the agent can run itself."
+      },
+      "versions": 8
+    },
+    {
+      "name": "dsh-plugin-ops-bundle",
+      "category": "diagnostics",
+      "labels": ["community"],
+      "title": { "zh": "运维面板", "en": "Ops Panel" },
+      "description": {
+        "zh": "设置页里的健康面板：扫描插件、逐行展示状态，并附带一个诊断对话入口。",
+        "en": "A settings-page health panel that scans plugins, lists each row's state and adds a diagnosis chat."
+      },
+      "versions": 8
+    },
+    {
+      "name": "dsh-plugin-upgrader",
+      "category": "tooling",
+      "labels": ["community"],
+      "title": { "zh": "插件升级器", "en": "Plugin Upgrader" },
+      "description": {
+        "zh": "在插件页直接升级插件，支持版本历史、回滚与实时 pnpm 进度。",
+        "en": "Upgrade plugins from the Plugins page, with version history, rollback and live pnpm progress."
+      },
+      "versions": 8
+    },
+    {
+      "name": "dsh-plugin-share",
+      "category": "tooling",
+      "labels": ["community"],
+      "title": { "zh": "插件集分享", "en": "Plugin Set Share" },
+      "description": {
+        "zh": "把一组插件打包成短码离线分享，对方粘贴即可复刻同一套插件。",
+        "en": "Share a plugin set offline as a compact code that reproduces the same set on another machine."
+      },
+      "versions": 8
+    },
+    {
+      "name": "dsh-plugin-appshot",
+      "category": "experience",
+      "labels": ["community"],
+      "title": { "zh": "上下文截图", "en": "Context Screenshot" },
+      "description": {
+        "zh": "在 macOS 与 Windows 上截取当前窗口上下文，直接交给 agent 看。",
+        "en": "Capture the current window as context for the agent on macOS and Windows."
+      },
+      "versions": 8
+    },
+    {
+      "name": "dsh-plugin-guide",
+      "category": "experience",
+      "labels": ["community"],
+      "title": { "zh": "插件质量指南", "en": "Plugin Quality Guide" },
+      "description": {
+        "zh": "社区写的插件质量指南：ENTRY、FLOW 检查与改进建议。非官方、非认证。",
+        "en": "A community guide to plugin quality: ENTRY checks, FLOW checks and improvement hints. Not official, not a certification."
+      },
+      "versions": 8
+    },
+    {
+      "name": "dsh-plugin",
+      "category": "market",
+      "labels": ["community"],
+      "title": { "zh": "插件市场 Hub", "en": "Plugin Hub" },
+      "description": {
+        "zh": "社区插件市场客户端，按官方插件规范浏览、搜索并安装社区插件。",
+        "en": "A community marketplace client that browses, searches and installs community plugins to the official spec."
+      },
+      "versions": 6
+    },
+    {
+      "name": "dsh-our-free-model",
+      "category": "models",
+      "labels": ["community"],
+      "title": { "zh": "免费模型接入", "en": "Our Free Model" },
+      "description": {
+        "zh": "免登录、免 Key 即可使用多种前沿模型的模型侧插件（上游行为由维护者决定，请自行评估）。",
+        "en": "A model-side plugin that adds frontier models without sign-in or API keys (upstream behaviour is the maintainer's call — judge for yourself)."
+      },
+      "versions": 3
+    }
+  ]
+}
