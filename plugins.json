@@ -97,6 +97,17 @@
       "versions": 8
     },
     {
+      "name": "dsh-plugin-telleru",
+      "category": "experience",
+      "labels": ["community"],
+      "title": { "zh": "TellerU 白板讲解", "en": "TellerU Whiteboard Tutor" },
+      "description": {
+        "zh": "在对话里输入 /telleru，AI 老师在右侧白板边写边讲：确认目标与大纲后逐步写出板书，可选语音讲解、快测与随时提问。",
+        "en": "Type /telleru and an AI tutor teaches on a whiteboard in the right sidebar: it confirms your goal and outline, then writes the board step by step, with optional voice, quizzes and interruptible Q&A."
+      },
+      "versions": 1
+    },
+    {
       "name": "dsh-plugin",
       "category": "market",
       "labels": ["community"],
